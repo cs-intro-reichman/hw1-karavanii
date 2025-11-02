@@ -9,6 +9,6 @@ public class Bill3 {
 		// insert bill
 		Double bill = Double.parseDouble(args[3]);	
 		// print sentence
-	    System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": Pay " + Math.ceil(bill/3) + " Shekels each."); 
+	    System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": Pay " + Math.ceil(bill/3) + " Shekels each"); 
 	}
 }
