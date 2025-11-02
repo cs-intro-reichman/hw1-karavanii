@@ -8,6 +8,6 @@ public class FVCalc {
 		// interest calculation
 		Double interest = rate/100.0;
 		// print summary
-		System.out.println("after " + years + " years, $" + CV + " saved at " + rate + "% will yield " + (int)(CV * Math.pow(1 + interest, years) + "$"));
+		System.out.println("after " + years + " years, $" + CV + " saved at " + rate + "% will yield " + (int)(CV * Math.pow(1 + interest, years))+ "$");
 	}
 }
